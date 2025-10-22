@@ -1,14 +1,14 @@
 :root {
   --accent: #2563eb;
-  --card: #f4f4f5;
-  --border: #e5e7eb;
+  --card: #e5e5fb;
+  --border: #0055ff;
 }
 
 body {
   margin: 0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  color: var(--text);
-  background: var(--bg);
+  color: rgb(105, 26, 145);
+  background: rgb(199, 224, 248);
   line-height: 1.6;
 }
 
@@ -30,7 +30,7 @@ a:hover {
 /* Header */
 .site-header {
   border-bottom: 1px solid var(--border);
-  background: #21b1e6;
+  background: hsl(226, 72%, 86%);
   position: sticky;
   font-family: 'Courier New', Courier, monospace;
   font-size: larger;
