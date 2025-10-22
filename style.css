@@ -30,9 +30,11 @@ a:hover {
 /* Header */
 .site-header {
   border-bottom: 1px solid var(--border);
-  background: #fff;
+  background: #21b1e6;
   position: sticky;
-  top: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  
 }
 
 .site-header .container {
@@ -62,8 +64,10 @@ a:hover {
 }
 .hero h1 {
   margin: 0 0 8px;
-  font-size: 28px;
+  font-size: 30px;
   padding-left: 8px;
+  font-family: 'Courier New', Courier, monospace;
+  
 }
 .hero p {
   margin: 0;
@@ -74,15 +78,15 @@ a:hover {
 }
 .btn {
   display: inline-block;
-  padding: 10px 14px;
+  padding:10px 16px;
   border: 1px solid var(--border);
   border-radius: 8px;
-  background: #fff;
-  color: var(--text);
+  background: var(--accent);
+  color: rgb(255, 255, 255);
 }
 .btn.primary {
   background: var(--accent);
-  color: #fff;
+  color: #ffffff;
   border-color: var(--accent);
   margin-right: 8px;
 }
@@ -138,7 +142,7 @@ section p.lead {
   padding: 2px 8px;
   border: 1px solid var(--border);
   border-radius: 999px;
-  background: #fff;
+  background: #88c6ff;
   margin-top: 8px;
 }
 
